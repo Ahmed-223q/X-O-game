@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+body {
+  background: #000;
+}
+
+/*  */
+#game {
+  height: 90vh;
+  width: 660px;
+  margin: 50px auto;
+}
+
+#game #title {
+  height: 60px;
+  width: 100%;
+  border-radius: 10px;
+  background: #f25;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+#game #title span {
+  color: yellow;
+}
+
+#game .box {
+  background: #f25;
+  width: 200px;
+  height: 190px;
+  padding-top: 10px;
+  float: left;
+  margin: 10px;
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+}
+
+#game .box:hover {
+  background: #000;
+}
+
+#game #btn {
+  height: 50px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  background: #f25;
+  color: aliceblue;
+  font-size: 2em;
+  font-weight: 700;
+}
